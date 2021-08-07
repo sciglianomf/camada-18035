@@ -1,0 +1,58 @@
+
+@import "_grilla.scss";
+@import "_fuentes";
+@import "_colores.scss";
+@import "_home.scss";
+@import "_sobrenosotros.scss";
+@import "_productos.scss";
+@import "_contacto.scss";
+
+
+	a {
+text-decoration: none;
+color: #ffffff;
+}
+
+a:hover {
+color: #dcab52;
+}
+
+.titulos{
+text-align: center;
+color:rgb(202, 223, 16);
+font-size: 2em;
+
+}
+
+ul{list-style: none;
+}
+
+.parrafo{
+font-size: 1em;
+color: white;
+}
+
+.row{
+justify-content: center;
+}
+
+
+#botonDeWhatsapp {
+	display: flex;
+	justify-content:flex-end;
+	img {
+		width: auto;
+		}
+}
+  
+// #botonDeWhatsapp {
+// position: fixed;
+// display: inline-block;
+// text-align: right;
+// box-sizing: border-box;
+// right: 0;
+// bottom: 0;
+// img {
+// 	width: auto;
+// 	}
+// }

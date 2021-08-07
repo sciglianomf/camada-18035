@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+body {
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+  font-size: 1em;
+  color: #ffffff;
+  font-weight: 300;
+  text-align: justify;
+}
+
+#siteHeader .logo {
+  background: url("../assets/logo.png") no-repeat;
+  width: 63px;
+  height: 75px;
+  display: block;
+}
+
+#siteBanner {
+  background-image: url("../assets/banner.png");
+  background-size: cover;
+  background-position: 50%;
+  min-height: 400px;
+  height: 50vh;
+  position: relative;
+}
+
+#siteBanner span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(4deg, #2852ca, #1b1e02);
+  background-position: 50%;
+  opacity: .8;
+}
+
+#siteBanner h3 {
+  font-size: 2.5rem;
+  line-height: 1.25em;
+  font-weight: 700;
+}
+
+footer {
+  background-color: black;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+body {
+  background-color: #030b16;
+}
+
+header {
+  background-color: #020a1e;
+}
+
+footer {
+  background-color: black;
+}
+
+#imgNos {
+  height: auto;
+}
+
+#iframeMapG {
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  max-height: 600px;
+}
+
+.icon {
+  font-size: 3em;
+  color: red;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #dcab52;
+}
+
+.titulos {
+  text-align: center;
+  color: #cadf10;
+  font-size: 2em;
+}
+
+ul {
+  list-style: none;
+}
+
+.parrafo {
+  font-size: 1em;
+  color: white;
+}
+
+.row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#botonDeWhatsapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#botonDeWhatsapp img {
+  width: auto;
+}
+/*# sourceMappingURL=estilos.css.map */
