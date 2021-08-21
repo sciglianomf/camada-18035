@@ -77,6 +77,24 @@ footer {
   color: red;
 }
 
+.cajasindex-1 {
+  border: 1px solid;
+  border-color: black;
+  background-color: #291e05;
+}
+
+.cajasindex-2 {
+  border: 1px solid;
+  border-color: black;
+  background-color: #290505;
+}
+
+.cajasindex-3 {
+  border: 1px solid;
+  border-color: black;
+  background-color: #082905;
+}
+
 a {
   text-decoration: none;
   color: #ffffff;
